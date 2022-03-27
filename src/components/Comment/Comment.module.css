@@ -1,0 +1,92 @@
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.put1Box{
+    flex-grow: 1;
+}
+
+.put1{
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 395px;   
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.put1:focus{
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #585CC6;
+    outline: 0;
+}
+
+.put2Box{
+    margin-top: 12px;
+}
+
+.put2{
+    width: 628px;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.put2:focus{
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #585CC6;
+    outline: 0;
+}
+
+.button{
+    margin-left: 15px;
+}
+
+.row3{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.note{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8A8A8A;
+}
+.noteIcon{
+    margin-left: 18px;
+}

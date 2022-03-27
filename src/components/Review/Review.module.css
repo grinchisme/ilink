@@ -1,0 +1,27 @@
+.container{
+    background-color: #FFFFFF;
+    padding-top: 56px;
+    padding-left: 80px;
+    margin-right: 242px;
+    padding-bottom: 64px;
+}
+
+.row1{
+    display: flex;
+    padding-bottom: 38px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 88px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.button{
+    align-items: center;
+    margin-right: 54px;
+}

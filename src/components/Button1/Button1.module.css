@@ -1,0 +1,40 @@
+.button1{
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+	border: none;
+	background: #FFFFFF;
+	color: #333333;
+	font-size: 18px;
+	position: relative;
+	transition: all 500ms ease; 
+	border-radius: 2px;
+}
+
+.button1:before {
+    content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #585CC6;
+    opacity: 0.1;
+	transition: all 2s ease;
+	border-radius: 2px;
+}
+
+.button1:hover:before {
+	width: 100%;
+}
+
+.button1:active {
+	background: #C2C4FF;
+    transition: 0;
+
+}
+.button1:disabled {
+	background: #E0E0E0;
+
+}

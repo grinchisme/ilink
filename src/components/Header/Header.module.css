@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.PersonName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #333333;
+}
+    
+.colLeft {
+    display: flex;
+    padding-left: 80px;
+    flex-grow: 1;
+}
+.colMiddle {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.colRight {
+    flex-grow: 1;
+    margin-right: 80px;
+    text-align: end;
+}
