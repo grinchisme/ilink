@@ -90,3 +90,95 @@
 .noteIcon{
     margin-left: 18px;
 }
+@media screen and (max-width: 768px){
+    .row1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .title{
+        flex-grow: 1;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.0124em;
+        color: #333333;
+    }
+    
+    .text{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.0124em;
+        color: #333333;
+    }
+    
+    .row2{
+        display: block;
+        margin-bottom: 24px;
+    }
+    
+    .put1Box{
+        flex-grow: 1;
+    }
+    
+    .put1{
+        font-size: 14px;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 256px;   
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    
+    .put1:focus{
+        color: #212529;
+        background-color: #fff;
+        border: 1px solid #585CC6;
+        outline: 0;
+    }
+    
+    .put2Box{
+        margin-top: 8px;
+    }
+    
+    .put2{
+        width: 100%;
+        font-size: 14px;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    .put2:focus{
+        color: #212529;
+        background-color: #fff;
+        border: 1px solid #585CC6;
+        outline: 0;
+    }
+    
+    .button{
+        margin-left: 0;
+    }
+    
+    .row3{
+        margin-top: 32px;
+        align-items: center;
+    }
+    .note{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #8A8A8A;
+    }
+    .noteIcon{
+        margin-left: 0;
+    }
+
+}

@@ -4,12 +4,18 @@ import Feedback_card from "../Feedback_card/Feedback_card";
 
 export default class MultipleItems extends Component {
     render() {
+        const windowInnerWidth = document.documentElement.scrollWidth;
+        let maxWindow;
+
+        (windowInnerWidth <764) ? maxWindow=1 : maxWindow=2;
+        
         const settings = {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: maxWindow,
+            slidesToScroll: maxWindow,
+            arrows: false
         };
         return (
             <div>

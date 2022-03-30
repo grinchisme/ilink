@@ -45,3 +45,54 @@
     line-height: 22px;
     color: #333333;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        display :inline-table;
+        background-color: #F5F5F5;
+        padding: 12px;
+        border-radius: 2px;
+        width: 272px;
+    }
+    
+    .row1{
+        display: flex;
+        margin-bottom: 22px;
+        align-items: center;
+    }
+    
+    .info{
+        flex-grow: 1;
+    }
+    
+    
+    .date{
+        color: #8A8A8A;
+        font-size: 14px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .name{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.0124em;
+        color: #333333;
+    }
+    
+    .position{
+        font-size: 12px;
+        color: #8A8A8A;
+        margin-right: 141px;
+    }
+    
+    .row2{
+        width: 248px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #333333;
+    }
+
+}

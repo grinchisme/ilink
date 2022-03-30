@@ -29,3 +29,36 @@
     margin-right: 80px;
     text-align: end;
 }
+
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .PersonName{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #333333;
+    }
+    .colLeft {
+        display: flex;
+        padding-left: 16px;
+        flex-grow: 1;
+    }
+    .colMiddle {
+        text-align: center;
+        flex-grow: 1;
+    }
+    
+    .colRight {
+        flex-grow: 1;
+        margin-right: 16px;
+        text-align: end;
+    }
+}

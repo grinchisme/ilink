@@ -25,3 +25,34 @@
     align-items: center;
     margin-right: 54px;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        background-color: #FFFFFF;
+        padding-top: 20px;
+        padding-left: 16px;
+        margin-right: 17px;
+        padding-bottom: 48px;
+    }
+    
+    .row1{
+        display: flex;
+        padding-bottom: 21px;
+    }
+    
+    .title{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.0124em;
+        color: #333333;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .button{
+        align-items: center;
+        margin-right: 15px;
+    }
+
+}

@@ -14,7 +14,6 @@
   letter-spacing: -0.0124em;
   color: #FFFFFF;
   width: 1157px;
-  /* font: 'Factor A TRIAL'; */
 }
 
 .allInfo{
@@ -33,4 +32,34 @@
 
 .review{
   padding-bottom: 106px;
+}
+
+@media screen and (max-width: 768px){
+
+  .H{
+    padding-top: 43px;
+    padding-bottom: 64px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    width: 288px;
+  }
+  .allInfo{
+    display: block;
+    margin-left: 16px;
+    padding-bottom: 57px;
+  }
+  
+  .image{
+    width: 304px;
+  }
+  
+  
+  .review{
+    padding-bottom: 82px;
+  }
+
 }

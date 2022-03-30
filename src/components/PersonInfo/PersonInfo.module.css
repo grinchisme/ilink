@@ -74,3 +74,75 @@
       margin-left: 12px;
       font-size: 18px;
   }
+
+  @media screen and (max-width: 768px){
+
+    .Info{
+      margin-bottom: 0px;
+        background: #FFFFFF;
+        margin-right: 16px;
+        border-radius: 2px;
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+      }
+      
+
+      
+      .box{
+        display: block;
+      }
+    
+      .name{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #585CC6;
+      }
+    
+      .date{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #8A8A8A;
+      }
+      
+      .PersonData{
+        margin-top: 16px;
+        display: inline-block;
+        /* margin-right: -28px; */
+      }
+      
+      .PersonDataItem{
+        /* margin-right: 28px; */
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #333333;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+      }
+      
+      .SelfData{
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #333333;
+      }
+      
+      .PetData{
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+      }
+    
+      .PetStatus{
+          margin-left: 8px;
+          font-size: 16px;
+      }
+
+  }
